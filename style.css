@@ -76,7 +76,7 @@ button:hover{
     padding-top: 3rem;
     padding-right: 2rem;
     height: 300px;
-    border-radius:50%;
+    border-radius:80%;
 }
 .image img{
     width:500px ;
@@ -1148,6 +1148,8 @@ span{
 .fa-copyright{
     margin-top: 1.2rem;
     font-size: 0.8rem;
+    padding-right: .3rem;
+    padding-top: .1rem;
 }
 .c_icon p{
     padding-right: 5rem;
