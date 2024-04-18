@@ -1,0 +1,1220 @@
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    position: fixed;
+    width: 99%;
+    z-index: 1;
+    margin-bottom: 2rem;
+    background-color: rgb(245, 240, 240);
+    margin-right: 15rem;
+    top: 0;
+}
+.two{
+    display: flex;
+    gap:2rem;
+    font-size:1.2rem;
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+    cursor: pointer;
+
+}
+.two a{
+    text-decoration: none;
+    color: gray;
+}
+.two a:hover{
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+button{
+    border: none;
+    border-radius: 2rem;
+    padding: .8rem;
+    background-color:rgb(239, 64, 64);
+    color: white;
+    font-size: 1rem;
+    border-color:rgb(239, 64, 64);
+    cursor: pointer;
+    display: inline;
+    width: 180px;
+    transition: box-shadow 0.1s ease-in-out;
+}
+button:hover{
+    box-shadow: 0 0 20px red;
+
+}
+.span1{
+    color:orangered;
+}
+.three{
+    font-size: 3rem;
+    font-style: oblique;
+    padding-left: 10rem;
+}
+.four{
+    padding-left: 10rem;
+    font-size: 1.5rem;
+}
+
+.back{
+    background-color:rgb(214, 214, 214);
+    display: flex;
+    padding-bottom: 10rem;
+    width: 100%;
+    height: 30rem;
+    padding-top: 6rem;
+}
+.image{
+    /* width: 450px; */
+    padding-left: 18rem;
+    padding-top: 3rem;
+    padding-right: 2rem;
+    height: 300px;
+    border-radius:50%;
+}
+.image img{
+    width:500px ;
+    height:500px;
+}
+
+selectPara{
+    font-size:1.3rem;
+    
+}
+#watchvideo{
+    margin-right: 1rem;
+    font-size: 25px;
+    cursor: pointer;
+    transition: filter 0.3s;
+    display: inline;
+    transition: box-shadow 0.1s ease-in-out;
+    margin-top: 4rem;
+ 
+}
+#watchvideo i{
+    display: inline;
+}
+#watchvideo:hover{
+    filter: brightness(150%);
+    color: red;
+    box-shadow: 40px red;
+
+}
+
+.h2{
+    color:rgb(49, 47, 47);
+    padding-top: 3rem;
+}
+.fa-circle-play{
+                 color: red;
+                 margin-bottom:7rem;
+                 
+}
+.five{
+    display: flex;
+    align-items: center;
+    padding-left: 10rem;
+    gap:2rem
+    
+    
+}
+.six{
+    padding: 0.8rem;
+    font-size: 100%;
+    border-radius: 2rem;
+    background-color:rgb(232, 42, 42);
+    color: white;
+    margin-top: 4rem;
+}
+
+.about{
+    margin-left: 40rem;
+}
+#about1{
+    padding-top: 5rem;
+}
+.learn{
+    margin-left:35rem;
+    font-size: 2rem;
+    font-style: italic;
+}
+span{
+    color:red;
+}
+.topic{
+    display: flex;
+    margin-right: 15rem;
+}
+.para{
+    font-size: 1rem;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.image1{
+  margin-right: 10rem;
+  position: relative;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+#para{
+    font-size: 1rem;
+    margin-left: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.obsolute{
+    position:absolute;
+    background-color: white;
+    width: 20rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 13rem;
+    margin-top: 30rem;
+    
+}
+.relative{
+    position: relative;
+}
+.fa-solid{
+    margin-bottom: rem;
+}
+.roundbutton{
+    position: absolute;
+    font-size: 6rem;
+    margin-top: 31rem;
+    margin-left: 69rem;
+    cursor: pointer;
+    transition: 0.1s,filter 0.1s;
+    transition: box-shadow 0.1s ease-in-out;
+    
+}
+.roundbutton i{
+    font-size: 3rem;
+    background-color: rgb(251, 251, 251);
+    padding: .2rem;
+    border-radius: 2rem;
+}
+.roundbutton:hover{
+    transform: scale(1.8);
+    filter: brightness(150%);
+    box-shadow: 20px red;
+   
+    
+
+}
+.icon{
+    font-size: 3rem;
+    position: absolute;
+    margin-left: 65rem;
+    margin-top: 35rem;
+    font-size: 3rem;
+    border-radius: 2rem;
+    
+}
+.main{
+    display: flex;
+    background-color: rgb(201, 201, 201);
+    width: 100%;
+    height: 600px;
+}
+ .select{
+    background-color:#CE1212;
+    color: white;
+    font-size: 1.3rem;
+    width: 400px;
+    height: 390px;
+    border: 1px solid;
+    text-align: center;
+    margin-left: 5rem;
+    margin-top:5rem;
+    border: none;
+}
+#button{
+    border: none;
+    border-radius: 2rem;
+    padding: .8rem;
+    background-color:rgb(239, 64, 64);
+    color: white;
+    font-size: 1rem;
+    border-color:rgb(239, 64, 64);
+    cursor: pointer;
+    display: inline;
+    width: 200px;
+}
+#button:hover{
+    background-color: white;
+    color:orangered;
+}
+
+.corporis{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    border: 1px solid;
+    border-color: white;
+    margin-left: 1rem;
+    margin-top: 6rem;
+}
+.corporis i{
+    background-color: rgb(249, 222, 222);
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.ullamco{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    border: 1px solid;
+    border-color: white;
+    margin-left: 1rem;
+    margin-top: 6rem;
+}
+.ullamco i{
+    background-color: rgb(249, 222, 222);
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.labore{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    border: 1px solid;
+    border-color: white;
+    margin-left: 1rem;
+    margin-top: 6rem;
+}
+.labore i {
+    background-color: rgb(249, 222, 222);
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.fa-sharp{
+    margin-top: 5rem;
+    font-size: 2rem;
+    color: red;
+}
+.fa-regular{
+    margin-top: 5rem;
+    font-size: 2rem;
+    color: red;
+}
+.fa-inbox{
+    margin-top: 5rem;
+    font-size: 2rem;
+    color: red;
+
+}
+
+
+
+
+.order{
+    display: flex;
+    background-image: url(./img/food\ order\ 2.jpg);
+    height:400px;
+    width: 99%;
+    filter: brightness(80%);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5rem;
+    
+}
+.customer{
+    color: white;
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    font-size:2rem;
+    cursor: pointer;
+    text-align: center;
+}
+.project{
+    color: white;
+    margin-left: 30rem;
+    margin-top: 5rem;
+    font-size:2rem;
+    cursor: pointer;
+    text-align: center;
+}
+.hour{
+    color: white;
+    margin-left: 15rem;
+    margin-top:5rem;
+    font-size:2rem;
+    cursor: pointer;
+    text-align: center;
+}
+.work{
+    color: white;
+    margin-left: 15rem;
+    margin-top: 5rem;
+    font-size:2rem;
+    margin-right:5rem;
+    cursor: pointer;
+    display: inline;
+    text-align: center;
+}
+.roman{
+    font-size: 2rem;
+}
+
+
+/* <!-- menu --> */
+
+.menu{
+    margin-top: 30rem;
+    padding-top: 5rem;
+}
+.menubar{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.menubar p{
+    color: gray;
+}
+.menunav{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+.menunava{
+    border-bottom: 2px solid;
+    width: 95px;
+    color: gray;
+}
+.menunava:hover{
+    color: red;
+    text-decoration-line: none;
+    border-color: rgb(194, 190, 190);
+}
+#star1{
+    color: red;
+}
+@font-face {
+    font-family: myfont;
+    src: url(./fonts/CrayonPaperDemoRegular.ttf);
+}
+.check{
+    font-family: myfont;
+    font-size: 2.1rem;
+    letter-spacing: .1rem;
+}
+.food{
+    text-align: center;
+}
+.food p{
+    color: gray;
+    margin-top: 3rem;
+}
+.food h2{
+    font-size: 2rem;
+}
+.menufood{
+    display: flex;
+    margin-left: 5rem;
+}
+.menufood1{
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.menufood img{
+    padding-left: 5rem;
+    width: 300px;
+    height: 300px;
+}
+.menufood1 img{
+    padding-left: 5rem;
+    width: 300px;
+    height: 300px;
+}
+.a{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.b{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* CEO */
+
+.ceo{
+    background-color:rgb(228, 220, 220);
+    height:600px
+}
+.owner{
+    text-align: center;
+    margin-top:5rem;
+    justify-content: center;
+    padding-top: 5rem;
+    font-size: 1.3rem;
+}
+.owner h2{
+    font-family: myfont;
+    letter-spacing: 0.3rem;
+}
+.quiz{
+    border-left:3px solid orangered;
+    margin-left: 20rem;
+    font-style: italic;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    padding-left:1rem;
+}
+.fa-quote-left{
+    color: rgb(241,60,96);
+}
+.fa-quote-right{
+    color: rgb(241,60,96);
+}
+.fa-star{
+    color: rgb(216,216,11);
+}
+.mohammed img{
+    width: 200px;
+    height: 200px;
+    border-radius:100px;
+    margin-right: 19rem;
+    background-color:white;
+}
+.abc{
+    display: flex;
+}
+.mainicon{
+    display: flex;
+}
+.roundicon{
+    margin-left:40rem;
+    letter-spacing: 0.7rem;
+    color: orangered;
+}
+.roundicon1{
+    letter-spacing: 0.7rem;
+    color: gray;
+}
+ 
+/* <!-- EVENTS -->  */
+
+.events{
+    text-align: center;
+}
+.eventmain{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.events p{
+    color: gray;
+}
+.events h2{
+    font-family: myfont;
+    font-size: 2rem;
+    letter-spacing:.3rem;
+}
+.events_image{
+    display: flex;
+    background-size: cover;
+    width:100%;
+}
+/* first image */
+.event_image1{
+    position: relative;
+}
+.event_image1 img{
+    background-image: url(./img/events-1.jpg);
+    width: 500px;
+    height: 600px;
+    filter: brightness(40%);
+}
+#events_image1{
+    position: absolute;
+    bottom:5rem;
+    left:1rem;
+    color: white;
+}
+#events_image1 h1{
+    border-bottom: 2px solid red;
+    width: 10%;
+}
+#events_image1 p{
+    font-size: 1.3rem;  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgba(255, 255, 255, 0.9);
+    
+}
+
+/* second image */
+.event_image2{
+    position: relative;
+}
+.event_image2 img{
+    background-image: url(./img/events-2.jpg);
+    width: 500px;
+    height: 600px;
+    filter: brightness(40%);
+}
+#events_image2{
+    position: absolute;
+    bottom:5rem;
+    left:1rem;
+    color: white;
+}
+#events_image2 h1{
+    border-bottom: 2px solid red;
+    width: 15%;
+}
+#events_image2 p{
+    font-size: 1.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgba(255, 255, 255, 0.9)
+}
+
+/* third image */
+.event_image3{
+    position: relative;
+}
+.event_image3 img{
+    background-image: url(./img/events-3.jpg);
+    width: 500px;
+    height: 600px;
+    filter: brightness(40%);
+}
+#events_image3{
+    position: absolute;
+    bottom:5rem;
+    left:1rem;
+    color: white;
+}
+#events_image3 h1{
+    border-bottom: 2px solid red;
+    width: 20%;
+}
+#events_image3 p{
+    font-size: 1.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgba(255, 255, 255, 0.9);
+}
+
+/* <!-- Chefs --> */
+
+.chefs{
+    background-color: rgb(238,234,234);
+    height: 750px;
+    width: 100%;
+    padding-top: 2rem;
+    
+}
+.chefs1{
+    text-align: center;
+    
+}
+.chefs1 h5{
+    color: gray;
+    letter-spacing: .2rem;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+   
+}
+.chefs1 h2{
+    font-size: 2rem;
+    letter-spacing: .5rem;
+    font-family: myfont;
+}
+.chefs_image{
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+.chefs_image1{
+    background-color: white;
+    margin-left: 7rem;
+}
+.chefs_image1 img{
+    width: 380px;
+    height: 360px;
+    border-radius: 2px;
+}
+#p1{
+    color: gray;
+}
+#p2{
+    font-style: italic;
+}
+.chefs_image2{
+    background-color: white;
+    margin-left: 1.5rem;
+}
+.chefs_image2 img{
+    width: 380px;
+    height: 360px;
+    border-radius: 2px;
+}
+.chefs_image3{
+    background-color: white;
+    margin-left: 1.5rem;
+}
+.chefs_image3 img{
+    width: 380px;
+    height: 360px;
+    border-radius: 2px;
+}
+
+/* Book A Table */
+
+.table{
+    margin-top: 5rem;
+}
+.table1{
+    text-align: center;
+}
+.table1 h5{
+    color: gray;
+    letter-spacing: .2rem;
+}
+.table1 h2{
+    font-family: myfont;
+    letter-spacing: .3rem;
+    font-size: 2rem;
+}
+.table_img img{
+    width: 570px;
+    height: 500px;
+    margin-left: 5rem;
+}
+.table_img{
+    display: flex;
+    background-color: rgb(243,239,239);
+}
+.table_main{
+        margin-left: 3rem;
+        margin-top: 5rem;
+}
+.table_form td input{
+    width: 280px;
+    height: 40px;
+    margin-bottom: 1rem;
+}
+.table_form tr input{
+    margin-right: 1rem;
+    padding-left: 1rem;
+}
+.table_main textarea{
+    font-size:1rem ;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 925px
+    
+}
+.table_main button{
+    margin-left: 14rem;
+    width: 13rem;
+    height: 3rem;
+    background-color: red;
+    margin-top: 2rem;
+}
+.table_form td input:active{
+    border: 2px solidr red;
+}
+
+/* GALLERY */
+.maingallery{
+    margin-top:5rem ;
+    background-color: rgb(243.239,239);
+    height: 450px;
+    padding-top: 3rem;
+}
+.gallery{
+    text-align: center;
+    padding-top: 2rem;
+}
+.gallery h5{
+    color: gray;
+    letter-spacing: .2rem;
+}
+.gallery h2{
+    font-family: myfont;
+    letter-spacing: .3rem;
+    font-size: 2rem;
+}
+.galleryimg{
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    
+}
+.galleryimg1{
+    margin-left: 2rem;
+}
+.galleryimg2{
+    margin-left: 2rem;
+}
+.galleryimg3{
+    margin-left: 2rem;
+    border: 5px solid red;
+    width: 290px;
+    height: 200px;
+    padding-top: .9rem;
+}
+.galleryimg4{
+    margin-left: 2rem;
+}
+.galleryimg5{
+    margin-left: 2rem;
+}
+.mainicon1{
+    display: flex;
+    margin-top: 3rem;
+    padding-left: 2rem;
+}
+.roundicon2{
+    margin-left: 40rem;
+    letter-spacing: 0.7rem;
+    color: gray
+}
+.roundicon2 span{
+    color: red;
+}
+.roundicon3{
+    letter-spacing: 0.7rem;
+    color: gray;
+}
+
+/* CONTACT */
+
+.contactmain{
+    margin-top:5rem;
+    padding: 5rem;
+}
+.contact{
+    text-align: center;
+}
+.contact h5{
+    color: gray;
+    letter-spacing: .2rem;
+}
+.contact h2{
+    font-family: myfont;
+    letter-spacing: .3rem;
+    font-size: 2rem;
+}
+.fa-question{
+    color: rgb(66,66,66);
+}
+.map{
+    margin-left: 1rem;
+}
+
+/* Address */
+
+.addressmain{
+    margin-top: 2rem;
+}
+/* Map */
+.map1{
+    display: flex;
+}
+.map2{
+    display: flex;
+}
+.address1{
+    display:flex;
+    background-color: rgb(240,235,235);
+    width: 45%;
+    margin-left: 5rem;
+    padding-left: 1rem;
+    height: 5rem;
+    padding-bottom: 2rem;
+}
+#address1{
+    color: white;
+}
+.fa-map{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    border:15px solid red;
+    background-color: red;
+    border-radius: 100%;
+}
+/* Email */
+.address2{
+    display: flex;
+    background-color: rgb(240,235,235);
+    width: 45%;
+    margin-left: 2rem;
+    padding-left: 1rem;
+    height: 5rem;
+    padding-bottom: 2rem;
+}
+#address2{
+    color: white;
+}
+.fa-envelope{
+    margin-top:1.5rem;
+    font-size: 2rem;
+    border:15px solid red;
+    background-color: red;
+    border-radius: 100%;
+}
+#address3 h2{
+    color: gray;
+}
+.map2{
+    display: flex;
+}
+
+/* Call Us */
+
+.address3{
+    display: flex;
+    background-color: rgb(240,235,235);
+    width:45%;
+    margin-left: 5rem;
+    margin-top:2rem ;
+    padding-left: 1rem;
+    height: 5rem;
+    padding-bottom: 2rem;
+}
+#address4{
+    color: white;
+}
+.fa-phone{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    border: 15px solid red;
+    background-color: red;
+    border-radius: 100%;
+}
+#address3{
+    margin-left: 1rem;
+    padding-right: 18rem;
+}
+/* Opening Hours */
+.address4{
+    display: flex;
+    background-color: rgb(240,235,235);
+    width:45%;
+    margin-left: 2rem;
+    margin-top:2rem ;
+    padding-left: 1rem;
+    height: 5rem;
+    padding-bottom: 2rem;
+}
+#address5{
+    color: white;
+}
+.fa-share-nodes{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    border: 15px solid red;
+    background-color: red;
+    border-radius: 100%;
+}
+/* Contact table */
+
+.contacttable{
+    padding-top: 2;
+}
+
+#contacttable{
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+.contacttable1{
+    display: flex;
+}
+.contacttable2{
+    display: flex;
+}
+.contacttable3{
+    display: flex;
+}
+#contacttable1 input{
+    width: 660px;
+    height: 3rem;
+    margin-right: 2rem;
+    font-size: 1rem;
+    padding-left: .5rem;
+    padding-top: .5rem;
+}
+#contacttable2 input{
+    width: 660px;
+    height: 3rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    padding-left: .5rem;
+    padding-top: .5rem;
+}
+#contacttable3 input{
+    width: 1365px;
+    height: 3rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding-left: .5rem;
+    padding-top: .5rem;
+}
+#contacttable4 textarea{
+    width: 1365px;
+    height: 6rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    padding-left: .5rem;
+    padding-top: 1rem;
+}
+#contacttable5{
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+#contacttable5 button{
+    height: 3rem;
+    width: 13rem;
+    
+}
+/* Final */
+.finalmain{
+    margin-top: 3rem;
+    background-color: #1f1f24;
+    width: 100%;
+    height: 30rem;
+}
+.final{
+    display: flex;
+    padding-top: 5rem;
+    padding-left: 10rem;
+}
+/* one */
+.final1{
+    display: flex;
+    margin-left: 5rem;
+    color: white;
+}
+.fa-location-dot{
+    margin-top: 1.3rem;
+    font-size: 1.3rem;
+    color: white;
+}
+#final2{
+    margin-left:1rem;
+}
+#final2 h3{
+    font-family:sans-serif;
+}
+#final2 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* two */
+
+.final2{
+    display: flex;
+    margin-left: 5rem;
+    color: white;
+}
+.final2 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#final4{
+    margin-left:1rem;
+}
+#final4 h3{
+    font-family: sans-serif;
+}
+.fa-phone-flip{
+    rotate: 90deg;
+    margin-top: 1.3rem;
+    font-size: 1.3rem;
+    color: white;
+}
+.final3{
+    display: flex;
+    margin-left: 5rem;
+    color: white;
+}
+#final6{
+    margin-left:1rem;
+}
+#final6 h3{
+    font-family: sans-serif;
+}
+#final6 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fa-clock{
+    margin-top: 1.3rem;
+    font-size: 1.3rem;
+    color: white;
+}
+/* four */
+.final4{
+    margin-left: 5rem;
+    color: white;
+}
+#final7 h3{
+    font-family: sans-serif;
+}
+.iconsocial{
+    font-size: 1.3rem;
+    display: flex;
+    letter-spacing: 2rem;
+    cursor: pointer;
+    /* background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0); */
+    color: rgb(201, 198, 198);
+}
+.iconsocial i{
+    margin-left: 0.4rem;
+}
+
+.fa-twitter{
+    border-color:gray;
+    padding: .5rem;
+    border: 2px solid gray;
+    border-radius: 3rem;
+    width: 1.3rem;
+    transition: background-color 0.3 ease;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.fa-twitter:hover{
+    color: white;
+    border-color: white;
+}
+.fa-facebook{
+    border-color: gray;
+    padding: .5rem;
+    border: 2px solid gray;
+    border-radius: 3rem;
+    width: 1.3rem;
+}
+.fa-facebook:hover{
+    color: white;
+    border-color: white;
+}
+.fa-instagram{
+    border-color: gray;
+    padding: .5rem;
+    border: 2px solid gray;
+    border-radius: 3rem;
+    width: 1.3rem;
+}
+.fa-instagram:hover{
+    color: white;
+    border-color: white;
+}
+.fa-linkedin{
+    border-color: gray;
+    padding: .5rem;
+    border: 2px solid gray;
+    border-radius: 3rem;
+    width: 1.3rem;
+}
+.fa-linkedin:hover{
+    color: white;
+    border-color: white;
+}
+.c_final{
+    text-align: center;
+    border-top: 1px solid white;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    height: 10rem;
+    width: 80rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: initial;
+}
+.c_icon{
+    display: flex;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 30rem;
+}
+.fa-copyright{
+    margin-top: 1.2rem;
+    font-size: 0.8rem;
+}
+.c_icon p{
+    padding-right: 5rem;
+}
+
+.scrolltopbtn a{
+    font-size: 2.5rem;
+    color: red;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    bottom: 10px;
+    right: 50px;
+    cursor: pointer;
+
+    text-decoration: none;
+    text-align: center;
+    line-height:54px;
+    border-radius: 2rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
